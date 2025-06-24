@@ -19,7 +19,7 @@ def simpleserver(port):
             path =match.group(1)
         else:
             response_code = 400
-        #TRAZIMO FAJL
+        #SEARCHING FOR FILE
         print(path)
         try:
             fin = open('files'+path)
